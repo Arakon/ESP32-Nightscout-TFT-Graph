@@ -1,4 +1,4 @@
-# ESP32-Nightscout-TFT
+# ESP32-Nightscout-TFT-Graph
 ![image](https://github.com/Arakon/ESP32-Nightscout-TFT-Graph/blob/main/graph1.jpg)
 
 
@@ -12,7 +12,7 @@ https://www.aliexpress.com/item/1005008136222795.html
 ESP32-C3:
 https://www.aliexpress.com/item/1005006599448997.html
 
-<img width="1236" height="1174" alt="wiring-C3" src="https://github.com/user-attachments/assets/34d405e4-74ff-44bf-8968-7528eb9dc79d" />
+[Wiring diagram](https://github.com/Arakon/ESP32-Nightscout-TFT-Graph/blob/main/wiring-C3.png)
 
 If you want to flash the [binary](https://github.com/Arakon/ESP32-Nightscout-TFT-Graph/blob/main/ESP32-C3-Nightscout-TFT-Graph.bin) directly, get [esptool](https://github.com/espressif/esptool/releases/download/v4.10.0/esptool-v4.10.0-windows-amd64.zip), extract it, copy the ESP32-C3-Nightscout-TFT-Graph.bin to the same folder, then open a command prompt, navigate to the folder you extracted it to, and run:
 
@@ -54,3 +54,4 @@ The graph will populate as values arrive, it takes 100 minutes/20 updates to ful
 Some status info is available on the serial monitor via USB (115200 baud).
 
 Partially based on [Gluci-Clock](https://github.com/Frederic1000/gluci-clock/) and my own [Nightscout-TFT](https://github.com/Arakon/Nightscout-TFT).
+
